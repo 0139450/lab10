@@ -17,5 +17,7 @@ public class threaddemo2 implements Runnable {
         Thread t1=new Thread(obj);
         Thread t2=new Thread("yamu");
         t1.run();
+        t2.run();}
+}
         
        
